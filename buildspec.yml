@@ -1,0 +1,12 @@
+version: 0.2
+phases:
+  build:
+    commands:
+      - echo Tests started on `date`
+      - npm install
+  post_build:
+    commands:
+      - echo running tests against ${TEST_ENVIRONMENT}
+      - npx playwright --version
+      - npx playwright test src/tests/mainTests/*spec.ts --retries 2 --workers 3
+      - echo completing tests against ${TEST_ENVIRONMENT}

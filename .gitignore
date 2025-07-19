@@ -1,0 +1,9 @@
+node_modules/
+/test-results/
+/playwright-report/
+/playwright/.cache/
+playwright.config.ts
+.env
+jenkins.war
+jenkins.war.bak
+jenkins.war.tmp

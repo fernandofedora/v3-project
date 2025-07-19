@@ -1,0 +1,37 @@
+{
+  "name": "v3automation",
+  "version": "1.0.0",
+  "description": "--- This project was created with the objective of creating and implementing automated tests in javascript using the playwright framework, to facilitate the creation of functions and scripts for **ideal-sale-circular** functional tests. for the moment the project is built with a simple structure, so that the files are easy to identify.",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "exceljs": "^4.4.0",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "ortoni-report": "^2.0.1",
+    "playwright": "^1.41.2",
+    "playwright-core": "^1.41.2",
+    "undici-types": "^5.26.5",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.11.16",
+    "@types/uuid": "^10.0.0",
+    "ajv": "^8.16.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedesignhouse/V3Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thedesignhouse/V3Automation/issues"
+  },
+  "homepage": "https://github.com/thedesignhouse/V3Automation#readme"
+}
